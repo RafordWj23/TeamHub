@@ -19,3 +19,12 @@ services:
     depends_on:
       db:
         condition: service_healthy
+  frontend:
+    build:
+      context: ./frontend
+      args:
+        VITE_API_URL: http://localhost:5000
+    ports:
+      - "3000:80"
+    depends_on:
+      - backend 
