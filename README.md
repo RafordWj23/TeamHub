@@ -60,14 +60,13 @@ environment variable. The frontend is built with the backend's URL set as
 `VITE_API_URL`. Secrets are not stored in the repository.
 
 ## Project Management
-- Jira: (https://winstonraford.atlassian.net/jira/software/projects/FP/summary))
+- Jira: (https://winstonraford.atlassian.net/jira/software/projects/FP/summary)
 - Confluence: (https://winstonraford.atlassian.net/wiki/spaces/~712020596640cbc4a54761821d388ebbe2757c/pages/294913/Project+Overview?atlOrigin=eyJpIjoiMjY3MmMwZTE4MzI1NDkxOTg4NjQ1NTg4YTNiMjMwODMiLCJwIjoiYyJ9)
 
 ## Git Workflow
 
-Each feature was built on its own branch and merged into `main` with a pull
-request: `feature/backend-api`, `feature/docker-compose`, `feature/frontend-ui`,
-and `feature/cloud-deploy`.
+Each feature was built on the `main` branch and updated with clear commit comments 
+
 
 ## How AI Helped
 [Claude and GitHub Copilot]
